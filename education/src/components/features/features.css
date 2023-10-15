@@ -1,0 +1,30 @@
+.features {
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+.features > div {
+    display: flex;
+    justify-content: center;
+}
+.features >h1{
+    margin-bottom: 10px;
+}
+.features >p{
+    margin-bottom: 25px;
+}
+
+.features .featuresList{
+    display: grid;
+    /* grid-template-columns:300px 100px 100px 100px 100px;
+    grid-gap: 10px;  */
+    grid-gap: 10px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.sidebar{
+    grid-row-start: 1;
+        grid-row-end: 3;
+}
